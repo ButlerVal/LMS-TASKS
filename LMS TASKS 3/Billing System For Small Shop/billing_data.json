@@ -1,0 +1,89 @@
+[
+    {
+        "timestamp": "2025-07-05 20:30:03",
+        "products": [
+            {
+                "name": "rice",
+                "price": 400.0,
+                "quantity": 5,
+                "subtotal": 2000.0
+            },
+            {
+                "name": "beans",
+                "price": 400.0,
+                "quantity": 4,
+                "subtotal": 1600.0
+            }
+        ],
+        "total": 3600,
+        "final_total_after_discount": 3600
+    },
+    {
+        "timestamp": "2025-07-05 20:31:13",
+        "products": [
+            {
+                "name": "rice",
+                "price": 400.0,
+                "quantity": 5,
+                "subtotal": 2000.0
+            },
+            {
+                "name": "beans",
+                "price": 400.0,
+                "quantity": 4,
+                "subtotal": 1600.0
+            },
+            {
+                "name": "maggi",
+                "price": 250.0,
+                "quantity": 10,
+                "subtotal": 2500.0
+            },
+            {
+                "name": "yam",
+                "price": 1000.0,
+                "quantity": 2,
+                "subtotal": 2000.0
+            }
+        ],
+        "total": 8100,
+        "final_total_after_discount": 8100
+    },
+    {
+        "timestamp": "2025-07-05 20:31:55",
+        "products": [
+            {
+                "name": "rice",
+                "price": 400.0,
+                "quantity": 5,
+                "subtotal": 2000.0
+            },
+            {
+                "name": "beans",
+                "price": 400.0,
+                "quantity": 4,
+                "subtotal": 1600.0
+            },
+            {
+                "name": "maggi",
+                "price": 250.0,
+                "quantity": 10,
+                "subtotal": 2500.0
+            },
+            {
+                "name": "yam",
+                "price": 1000.0,
+                "quantity": 2,
+                "subtotal": 2000.0
+            },
+            {
+                "name": "eggs",
+                "price": 6000.0,
+                "quantity": 2,
+                "subtotal": 12000.0
+            }
+        ],
+        "total": 20100,
+        "final_total_after_discount": 19095
+    }
+]

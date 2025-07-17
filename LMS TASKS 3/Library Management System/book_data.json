@@ -1,0 +1,17 @@
+[
+    {
+        "Title": "Water Lord",
+        "Author": "Water Works",
+        "Available": true
+    },
+    {
+        "Title": "Fire Works",
+        "Author": "Fire Lord",
+        "Available": true
+    },
+    {
+        "Title": "Water Works",
+        "Author": "Water Lord",
+        "Available": false
+    }
+]

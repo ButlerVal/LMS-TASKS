@@ -1,0 +1,20 @@
+[
+    {
+        "Id": "186cb4a4-1735-4327-b1e8-580ec23bb28a",
+        "Sender": "Mark",
+        "Recipient": "Joe",
+        "Status": "In Transit"
+    },
+    {
+        "Id": "7922b334-2859-4122-b192-6466b16c0f47",
+        "Sender": "Jane",
+        "Recipient": "Fred",
+        "Status": "In Transit"
+    },
+    {
+        "Id": "9c0da75e-4d7f-42ac-8b1c-e26fc74a6a44",
+        "Sender": "Pete",
+        "Recipient": "Gwen",
+        "Status": "In Transit"
+    }
+]
