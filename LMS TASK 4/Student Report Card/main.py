@@ -48,17 +48,18 @@ class Student:
         return student
     
 def add_student(students):
-    name = input("Enter student name: ")
-    num_subjects = int(input("Enter number of subjects: "))
+    name = input("Enter student name: ").capitalize().strip()
+    num_subjects = int(input("Enter number of subjects: ").strip())
     subjects = []
     scores = []
     for _ in range(num_subjects):
-        subject = input("Enter subject name: ")
-        score = float(input(f"Enter score for {subject}: "))
+        subject = input("Enter subject name: ").strip().capitalize()
+        score = float(input(f"Enter score for {subject}: ").strip())
         subjects.append(subject)
         scores.append(score)
     student = Student(name, subjects, scores)
     students.append(student)
+    print()
     print(f"Student {name} added successfully.\n")
 
 def view_students(students):
@@ -66,6 +67,7 @@ def view_students(students):
         print("No students found.\n")
         return
     for idx, student in enumerate(students, start=1):
+        print()
         print(f"--- Student {idx} ---")
         print(f"Name: {student.name}")
         for subj, score in zip(student.subjects, student.scores):
@@ -75,13 +77,13 @@ def view_students(students):
         print()
 
 def update_student(students):
-    name = input("Enter name of student to update: ")
+    name = input("Enter name of student to update: ").strip().capitalize()
     for student in students:
         if student.name == name:
             print(f"Updating scores for {name}.")
             for i in range(len(student.subjects)):
                 subject = student.subjects[i]
-                score = float(input(f"Enter new score for {subject}: "))
+                score = float(input(f"Enter new score for {subject}: ").strip())
                 student.scores[i] = score
             student.calculate_average()
             student.assign_grade()
@@ -94,13 +96,14 @@ def main():
     students = load_students(filename)
 
     while True:
+        print()
         print("=== Student Report Card App ===")
         print("1. Add Student")
         print("2. View Students")
         print("3. Update Student")
         print("4. Exit")
 
-        choice = input("Select an option: ")
+        choice = input("Select an option: ").strip()
 
         if choice == "1":
             add_student(students)
@@ -112,7 +115,7 @@ def main():
             save_students(students, filename)
         elif choice == "4":
             save_students(students, filename)
-            print("Exiting program. Goodbye!")
+            print("Goodbye!. Thanks for using the student report card")
             break
         else:
             print("Invalid option. Please try again.\n")

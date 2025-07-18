@@ -1,21 +1,38 @@
 [
     {
-        "name": "val",
+        "name": "Val",
         "subjects": [
-            "maths",
-            "english",
-            "chemistry",
-            "physics",
-            "biology"
+            "Maths",
+            "English",
+            "Chemistry",
+            "Physics",
+            "Biology"
         ],
         "scores": [
-            70.0,
-            80.0,
             80.0,
             75.0,
-            90.0
+            90.0,
+            69.0,
+            80.0
         ],
-        "average": 79.0,
+        "average": 78.8,
+        "grade": "A"
+    },
+    {
+        "name": "Gina",
+        "subjects": [
+            "Maths",
+            "English",
+            "Lit english",
+            "Government"
+        ],
+        "scores": [
+            85.0,
+            90.0,
+            87.0,
+            78.0
+        ],
+        "average": 85.0,
         "grade": "A"
     }
 ]
