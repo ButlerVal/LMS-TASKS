@@ -125,7 +125,6 @@ University of Example | 2018-2022
 ## Skills
 Python, JavaScript, SQL, Git
 
-
 Notes
 
 Ensure resume.json is properly formatted to avoid JSON parsing errors.
