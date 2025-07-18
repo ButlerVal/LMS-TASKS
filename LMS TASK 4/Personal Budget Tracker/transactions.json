@@ -1,0 +1,12 @@
+[
+    {
+        "date": "2025-07-18",
+        "category": "Rent",
+        "amount": 130000.0
+    },
+    {
+        "date": "2025-07-17",
+        "category": "Urilities",
+        "amount": 70000.0
+    }
+]

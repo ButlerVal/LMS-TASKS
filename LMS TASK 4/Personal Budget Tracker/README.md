@@ -67,21 +67,6 @@ Target Savings Amount: $620.00
 Remaining Income (after savings): $2480.00
 ```
 
-## GitHub Commit Strategy
-To push this project to GitHub with multiple commits:
-1. **Initial Setup**:
-   - Initialize a Git repository: `git init`
-   - Create `.gitignore` for Python projects (ignore `*.pyc`, `__pycache__`, `transactions.json`): `echo -e "*.pyc\n__pycache__\ntransactions.json" > .gitignore`
-   - Commit: `git add .gitignore && git commit -m "Initial commit with .gitignore"`
-2. **Add Core Files**:
-   - Add `main.py`: `git add main.py && git commit -m "Add main application with Transaction class and menu"`
-   - Add `budget_utils.py`: `git add budget_utils.py && git commit -m "Add utility functions for transaction management"`
-3. **Add README**:
-   - Add `README.md`: `git add README.md && git commit -m "Add README with project documentation"`
-4. **Final Touches**:
-   - Make any minor fixes or updates: `git add . && git commit -m "Final tweaks and documentation updates"`
-   - Push to GitHub: `git remote add origin <repository-url> && git push -u origin main`
-
 ## Notes
 - The application assumes valid input for amounts and dates. Invalid inputs (e.g., non-numeric amounts or incorrect date formats) will raise errors and require re-entry.
 - Transactions are stored in `transactions.json` after every add operation.
